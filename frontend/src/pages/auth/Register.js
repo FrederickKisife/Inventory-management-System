@@ -68,7 +68,7 @@ const Register = () => {
             <div className='--flex-center'>
                 <TiUserAddOutline size={35} color="#999"/>
             </div>
-            <h2>Rgister</h2>
+            <h2>Register</h2>
 
             <form onSubmit={register}>
                 <input type="text" placeholder="Name" required name="name" value= {name} onChange={handleInputChange}/>
